@@ -1,13 +1,13 @@
-/* header{
-    height: 1px;
-} */
+* {
+	box-sizing: border-box;
+}
 
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
-	background-color: gray;
+	background-color: #f1f1f1;
 }
 
 header {
@@ -16,7 +16,6 @@ header {
 	justify-content: flex-start;
 	align-items: center;
 	gap: 15px;
-	background-color: aquamarine;
 }
 
 header img {
@@ -36,11 +35,71 @@ header h1 {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 50px;
-
-	background-color: #f8947e;
+	gap: 10px;
 }
 
-br {
-	height: 10px;
-	size: 10px;
+#inputForm {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 7px 0px 7px 0px;
+	gap: 20px;
+}
+
+#inputForm input {
+	height: 30px;
+	padding: 3px;
+	border: none;
+	border-bottom: 3px solid black;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+#inputForm input::placeholder {
+	font-size: 15px;
+	padding: 3px;
+}
+
+#inputAtividade {
+	width: 200px;
+}
+
+#inputNota {
+	width: 60px;
+}
+
+#inputForm button {
+	height: 30px;
+	width: 100px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: #ffffffff;
+	border: none;
+	background-color: #1ebf08;
+}
+
+#inputForm button:hover {
+	background-color: #49e834;
+}
+
+#resultsHeader {
+	width: 100%;
+}
+
+#resultsTitle {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#resultsTitle h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+}
+
+#resultsHeader hr {
+	border: none;
+	border-top: 2px solid black;
 }
