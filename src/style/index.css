@@ -1,12 +1,14 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	background-color: #f1f1f1;
+}
 
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	background-color: #f1f1f1;
 }
 
@@ -30,7 +32,6 @@ header h1 {
 
 .container {
 	width: 700px;
-	height: 1000px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -83,23 +84,57 @@ header h1 {
 	background-color: #49e834;
 }
 
-#resultsHeader {
+#inputForm button:focus {
+	background-color: #5bb14f;
+}
+
+#resultsTable {
 	width: 100%;
 }
 
-#resultsTitle {
-	width: 100%;
+#resultsTable tr {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	height: 50px;
+	border-bottom: 1px solid black;
 }
 
-#resultsTitle h3 {
+#resultsTable td {
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#resultsTable td img {
+	height: 25px;
+}
+.resultsTitles {
+	border-bottom: 2px solid black;
+	padding: 5px 0px 5px 0px;
+}
+
+.resultsTitles h3 {
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 }
 
-#resultsHeader hr {
-	border: none;
-	border-top: 2px solid black;
+.Aprovado,
+.Reprovado {
+	font-weight: 500;
+	color: #ffffff;
+	width: 80px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3px;
+}
+
+.Aprovado {
+	background-color: #1ebf08;
+}
+.Reprovado {
+	background-color: #f74343;
 }

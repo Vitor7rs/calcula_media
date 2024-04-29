@@ -23,27 +23,20 @@
 					<input
 						type="text"
 						placeholder="Nome da atividade"
-						id="inputAtividade"
+						id="inputTask"
 						required
 					/>
 					<input
 						type="number"
 						placeholder="Nota"
-						id="inputNota"
+						id="inputGrade"
 						max="10"
 						min="0"
 					/>
-					<button type="submit">Adicionar +</button>
+					<button type="submit" onclick="main()">Adicionar +</button>
 				</form>
-				<div id="resultsHeader">
-					<div id="resultsTitle">
-						<h3>Nome da atividade</h3>
-						<h3>Nota</h3>
-						<h3>Aprovado?</h3>
-					</div>
-					<hr />
-				</div>
-				<!-- <div id="results"></div> -->
+
+				<table id="resultsTable"></table>
 			</section>
 		</main>
 		<script src="src/scripts/index.js"></script>
