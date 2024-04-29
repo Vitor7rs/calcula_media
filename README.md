@@ -1,13 +1,14 @@
-### Deploy Test: https://calcula-media-tan.vercel.app/
+# Uma calculadora de médias simples e divertida!
+## Deploy Test: https://calcula-media-tan.vercel.app/
 
 <div style="width:100%">
   <img src="https://i.imgur.com/iWXACEs.png" style="width:50%">
   <img src="https://i.imgur.com/XZ6HziU.png" style="width:50%">
 </div>
 
-# Como Rodar o Projeto
+## Como Rodar o Projeto
 
-## Instruções
+### Instruções
 
 1. Clone o repositório para o seu computador ou faça download dele.
 
