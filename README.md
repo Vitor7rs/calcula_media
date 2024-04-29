@@ -1,8 +1,8 @@
 ### Deploy Test: https://calcula-media-tan.vercel.app/
 
-<div>
-  <img src="https://i.imgur.com/GjbB7z3.png">
-  <img src="https://i.imgur.com/XZ6HziU.png">
+<div style="width:100%">
+  <img src="https://i.imgur.com/iWXACEs.png" style="width:50%">
+  <img src="https://i.imgur.com/XZ6HziU.png" style="width:50%">
 </div>
 
 # Como Rodar o Projeto
